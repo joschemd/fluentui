@@ -15,3 +15,19 @@ export const renderDivider = (state: DividerState) => {
 
   return <slots.root {...slotProps.root}>{contentVisible && <slots.content {...slotProps.content} />}</slots.root>;
 };
+
+/*
+
+
+
+  return (
+    <slots.root {...slotProps.root}>
+      {loading && <slots.loader {...slotProps.loader} />}
+      {iconPosition !== 'after' && <slots.icon {...slotProps.icon} />}
+      {!iconOnly && <slots.content {...slotProps.content} />}
+      {iconPosition === 'after' && <slots.icon {...slotProps.icon} />}
+    </slots.root>
+
+
+
+*/
