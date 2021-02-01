@@ -19,8 +19,4 @@ module.exports = resources.createConfig('ssr-tests', false, {
       'process.env.NODE_ENV': JSON.stringify('production'),
     }),
   ],
-
-  optimization: {
-    concatenateModules: false,
-  },
 });

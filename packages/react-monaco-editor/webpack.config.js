@@ -28,9 +28,5 @@ module.exports = resources.createConfig(
         '@fluentui/react-monaco-editor/dist': path.join(__dirname, 'dist'),
       },
     },
-
-    optimization: {
-      concatenateModules: false,
-    },
   }),
 );

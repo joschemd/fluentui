@@ -44,10 +44,6 @@ module.exports = function(env, argv) {
       resolve: {
         alias: getResolveAlias(true /*useLib*/),
       },
-
-      optimization: {
-        concatenateModules: false,
-      },
     }),
     // always build the dev bundle too
     /* only production */ false,
